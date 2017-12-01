@@ -1,9 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netjs", "Netjs\Netjs.csproj", "{DC5B7B7B-6890-45E1-80C6-E1B619BC0150}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRefactory", "Dependencies\NRefactory\NRefactory.csproj", "{0709E65F-6943-4A75-9248-3DDBA94E3D5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validators", "Validators\Validators.csproj", "{BD74DCA7-F759-4850-94AB-E4DB7DF38A57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +15,24 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0709E65F-6943-4A75-9248-3DDBA94E3D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0709E65F-6943-4A75-9248-3DDBA94E3D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0709E65F-6943-4A75-9248-3DDBA94E3D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0709E65F-6943-4A75-9248-3DDBA94E3D5F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DC5B7B7B-6890-45E1-80C6-E1B619BC0150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC5B7B7B-6890-45E1-80C6-E1B619BC0150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC5B7B7B-6890-45E1-80C6-E1B619BC0150}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC5B7B7B-6890-45E1-80C6-E1B619BC0150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0709E65F-6943-4A75-9248-3DDBA94E3D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0709E65F-6943-4A75-9248-3DDBA94E3D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0709E65F-6943-4A75-9248-3DDBA94E3D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0709E65F-6943-4A75-9248-3DDBA94E3D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD74DCA7-F759-4850-94AB-E4DB7DF38A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD74DCA7-F759-4850-94AB-E4DB7DF38A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD74DCA7-F759-4850-94AB-E4DB7DF38A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD74DCA7-F759-4850-94AB-E4DB7DF38A57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28923230-656C-452C-92CA-79A9D8EE04DA}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Netjs\Netjs.csproj
